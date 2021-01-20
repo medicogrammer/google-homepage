@@ -1,0 +1,96 @@
+html, body {margin: 0; height: 100%; overflow:hidden; position: relative;}
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    position: relative;
+}
+input {
+    width: 85%;
+    padding: 13px 13px 13px 45px;
+    border-radius: 50px;
+    border: 1px solid rgb(214, 213, 213);
+    background: url(loupe.svg) no-repeat;
+    background-size: 15px 15px;
+    background-position: 15px 15px;
+    font-size: 16px;
+}
+
+input:hover {
+    box-shadow: 0px 0px 5px rgb(212, 210, 210);
+}
+#main {
+    max-width: 600px;
+    margin: 10em auto;
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: blue;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    background-color: rgb(248, 249, 250);
+    padding: 10px 15px;
+    margin: 30px 10px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 5px rgb(212, 210, 210);
+}
+
+p {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ul1 {
+    list-style-type: none;
+    margin: 5px 10px;
+    padding: 10px;
+}
+
+li {
+    float: right;
+    margin: 10px;
+}
+
+.signin{
+    background-color: rgb(83, 132, 231);
+    margin: 2px 10px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+div.image {max-width: 20px;max-height: 20px;background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIiBjbGFzcz0iIj48Zz48cGF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGQ9Im01IDBoLTRjLS41NTIgMC0xIC40NDgtMSAxdjRjMCAuNTUyLjQ0OCAxIDEgMWg0Yy41NTIgMCAxLS40NDggMS0xdi00YzAtLjU1Mi0uNDQ4LTEtMS0xeiIgZmlsbD0iI2QxZDFkMSIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTUgOWgtNGMtLjU1MiAwLTEgLjQ0OC0xIDF2NGMwIC41NTIuNDQ4IDEgMSAxaDRjLjU1MiAwIDEtLjQ0OCAxLTF2LTRjMC0uNTUyLS40NDgtMS0xLTF6IiBmaWxsPSIjZDFkMWQxIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkPSJtNSAxOGgtNGMtLjU1MiAwLTEgLjQ0OC0xIDF2NGMwIC41NTIuNDQ4IDEgMSAxaDRjLjU1MiAwIDEtLjQ0OCAxLTF2LTRjMC0uNTUyLS40NDgtMS0xLTF6IiBmaWxsPSIjZDFkMWQxIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkPSJtMTQgMGgtNGMtLjU1MiAwLTEgLjQ0OC0xIDF2NGMwIC41NTIuNDQ4IDEgMSAxaDRjLjU1MiAwIDEtLjQ0OCAxLTF2LTRjMC0uNTUyLS40NDgtMS0xLTF6IiBmaWxsPSIjZDFkMWQxIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkPSJtMTQgOWgtNGMtLjU1MiAwLTEgLjQ0OC0xIDF2NGMwIC41NTIuNDQ4IDEgMSAxaDRjLjU1MiAwIDEtLjQ0OCAxLTF2LTRjMC0uNTUyLS40NDgtMS0xLTF6IiBmaWxsPSIjZDFkMWQxIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkPSJtMTQgMThoLTRjLS41NTIgMC0xIC40NDgtMSAxdjRjMCAuNTUyLjQ0OCAxIDEgMWg0Yy41NTIgMCAxLS40NDggMS0xdi00YzAtLjU1Mi0uNDQ4LTEtMS0xeiIgZmlsbD0iI2QxZDFkMSIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTIzIDBoLTRjLS41NTIgMC0xIC40NDgtMSAxdjRjMCAuNTUyLjQ0OCAxIDEgMWg0Yy41NTIgMCAxLS40NDggMS0xdi00YzAtLjU1Mi0uNDQ4LTEtMS0xeiIgZmlsbD0iI2QxZDFkMSIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTIzIDloLTRjLS41NTIgMC0xIC40NDgtMSAxdjRjMCAuNTUyLjQ0OCAxIDEgMWg0Yy41NTIgMCAxLS40NDggMS0xdi00YzAtLjU1Mi0uNDQ4LTEtMS0xeiIgZmlsbD0iI2QxZDFkMSIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTIzIDE4aC00Yy0uNTUyIDAtMSAuNDQ4LTEgMXY0YzAgLjU1Mi40NDggMSAxIDFoNGMuNTUyIDAgMS0uNDQ4IDEtMXYtNGMwLS41NTItLjQ0OC0xLTEtMXoiIGZpbGw9IiNkMWQxZDEiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD48L2c+PC9zdmc+)}
+
+.apps{
+    margin: 5px;
+}
+
+.li2 {
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0px 20px 15px 0px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(242, 242, 242);
+    width: 100%;
+}
